@@ -1,0 +1,22 @@
+{
+  "name": "projet7_oc",
+  "version": "1.0.0",
+  "description": "Projet n°7 Openclassroom: les petits plats",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YohanFrontDev/ProjectSearchAlgo.git"
+  },
+  "author": "Yohan Ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YohanFrontDev/ProjectSearchAlgo/issues"
+  },
+  "homepage": "https://github.com/YohanFrontDev/ProjectSearchAlgo#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

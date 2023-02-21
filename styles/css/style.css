@@ -129,26 +129,14 @@ article .description {
   cursor: pointer;
 }
 
-.navbar-expand .nav-dropdown-ingredients {
+.navbar-expand .nav-dropdown-ingredients, 
+.navbar-expand .nav-dropdown-ingredients .button-tags,
+.navbar-expand .nav-dropdown-ingredients .button-tags #search-ingredients{
   background-color: #3282f7;
 }
 
-.navbar-expand .nav-dropdown-ingredients .button-tags {
-  background-color: #3282f7;
-}
-
-.navbar-expand .nav-dropdown-ingredients .button-tags #search-ingredients {
-  background-color: #3282f7;
-}
-
-.navbar-expand .nav-dropdown-appliances {
-  background-color: #68d9a4;
-}
-
-.navbar-expand .nav-dropdown-appliances .button-tags {
-  background-color: #68d9a4;
-}
-
+.navbar-expand .nav-dropdown-appliances,
+.navbar-expand .nav-dropdown-appliances .button-tags ,
 .navbar-expand .nav-dropdown-appliances .button-tags #search-appliances {
   background-color: #68d9a4;
 }
