@@ -26,9 +26,8 @@ export class Dropdown {
     this.filterElementsOfDropdown();
   }
 
-  /**
-   * Afficher les éléments filtrés de mon Dropdown
-   */
+  // Affiche les éléments filtrés de mon Dropdown
+   
   filterElementsOfDropdown() {
     let elementsFiltered = new Set();
     if (this.dataType == "ingredients") {
@@ -190,8 +189,8 @@ export class Dropdown {
             this.selectedTags
           );
           this.filterElementsOfDropdown();
-          // empty searchbar of dropdown is more 3 characters and click on element on dropdown
-          if (this.input.value.length >= 3) {
+          // empty searchbar of dropdown is more 0 characters and click on element on dropdown
+          if (this.input.value.length >= 0) {
             this.input.value = "";
           }
         }
@@ -204,7 +203,7 @@ export class Dropdown {
    */
   initListenersInput() {
     this.input.addEventListener("keydown", (e) => {
-      if (e.target.value.length >= 3) {
+      if (e.target.value.length >= 0) {
         const searchBar = document.getElementById(`search-${this.dataType}`);
         const valueInput = searchBar.value.toLowerCase();
         this.ul.innerHTML = "";
