@@ -1,4 +1,5 @@
-import {recipes} from '../data/Recipes.js'
+import {recipes} from '../data/Recipes.js';
+
 let myValue = "Lait de coco";
 
 function loopMethod() {
@@ -37,6 +38,5 @@ function arrayMethod() {
 
 
 
-console.log(myValue)
 arrayMethod();
 loopMethod();
