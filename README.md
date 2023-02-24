@@ -19,3 +19,7 @@ je dois tester 2 versions différentes de l'algorithme et choisir la plus perfor
 ### Comparaison de performance
 
 [Comparaison des performances ](https://jsben.ch/dCYY0)
+
+
+## Pour lancer le projet: 
+cmd: npm install requires

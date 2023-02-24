@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YohanFrontDev/ProjectSearchAlgo.git"
+    "url": "git+https://github.com/YohanFrontDev/ProjectSearchAlgo.git"
   },
   "author": "Yohan Ferreira",
   "license": "ISC",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/YohanFrontDev/ProjectSearchAlgo#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "requires": "^1.0.2"
   }
 }
