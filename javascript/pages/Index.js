@@ -1,8 +1,9 @@
 import {recipes} from '../data/Recipes.js';
 
-let myValue = "Lait de coco";
 
-function loopMethod() {
+function loopMethod(recipes) {
+  let myValue = "Lait de coco";
+
   let arrayRecipes = [];
   
   for (let i = 0; i < recipes.length; i++) {
@@ -22,7 +23,8 @@ function loopMethod() {
   }
 }
 
-function arrayMethod() {
+function arrayMethod(recipes) {
+  let myValue = "Lait de coco";
 
   const arrayRecipes = recipes.filter((recipe) => {
         return (
@@ -38,5 +40,5 @@ function arrayMethod() {
 
 
 
-arrayMethod();
-loopMethod();
+arrayMethod(recipes);
+loopMethod(recipes);
