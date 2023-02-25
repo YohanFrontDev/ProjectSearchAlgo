@@ -54,7 +54,7 @@ export class Dropdown {
   }
 
   /**
-   * Affiches les éléments filtrés correspondants à ma saisie
+   * Afficher les éléments filtrés correspondants à ma saisie
    */
   filterElementsWithInputOfDropdown(valueInput) {
     let elementsMatched = new Set();

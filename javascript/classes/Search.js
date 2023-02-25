@@ -35,7 +35,6 @@ export class Search {
    * Create an array of recipes that matches with search field
    */
   recipesFilteredWithInput() {
-    // start of code for solution 2
     const valueInput = searchBar.value.toLowerCase();
 
     const recipesFiltered = recipes.filter((recipe) => {
@@ -60,7 +59,6 @@ export class Search {
         this.recipesFiltered = recipesFiltered;
       }
     });
-    // End of code for solution 2
 
     if (this.selectedTag.size) {
       // if there are tags selected
