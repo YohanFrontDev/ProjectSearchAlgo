@@ -7,6 +7,7 @@ export class Recipe {
     this.description = recipe.description;
     this.appliance = recipe.appliance;
     this.ustensils = recipe.ustensils;
+    this.image = recipe.image;
     this.createRecipe();
   }
 
@@ -29,7 +30,9 @@ export class Recipe {
         })
         .join(",") +
       `">
-        <div class="picture"></div>
+        <div class="picture">
+        <img src="/assets/images/photos/${this.image}"  alt="picture of ${this.name}">
+        </div>
         <div class="name-and-time">
             <h2 class="name" data-name="${this.name}">${this.name}</h2>
             <p><i class="far fa-clock"></i> ${this.time} min</p>
